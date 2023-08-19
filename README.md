@@ -18,6 +18,10 @@ These are the following departments that you can test with:
 -production
 -executives
 
-## Contact the Developer
+## TODO
+
+-Setup a SQL Database to hold all of the Employee data. Currently, the data is kept in a data-layer within the project for simplicity and testing purposes. 
+
+### Contact the Developer
 
 [Jace Butcher](https://www.linkedin.com/in/jacedylanbutcher/)
