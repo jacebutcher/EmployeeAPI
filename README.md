@@ -1,6 +1,6 @@
 ﻿# Employee REST API
 
-This API currently supports retrieving a list of all employees filtered by their respective departments.
+This API currently supports retrieving a list of all employees filtered by their respective departments. The Database used is a SQL Server/DB hosted on Azure along with the API.
 
 ## Usage
 
@@ -21,10 +21,6 @@ These are the following departments that you can test with:
 -security
 -production
 -executives
-
-## TODO
-
--Setup a SQL Database to hold all of the Employee data. Currently, the data is kept in a data-layer within the project for simplicity and testing purposes. 
 
 ### Contact the Developer
 
