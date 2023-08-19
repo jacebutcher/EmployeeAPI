@@ -1,5 +1,4 @@
-﻿using System;
-using EmployeesAPI.Models;
+﻿using EmployeesAPI.Models;
 using EmployeesAPI.Managers;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,7 +42,6 @@ public class EmployeeController : ControllerBase
             employeeResponse = manager.ConvertToResponse(employees);
             return Ok(employeeResponse);   // successful response
         }
-
     }
 
     // TODO: Add "AddEmployee" method

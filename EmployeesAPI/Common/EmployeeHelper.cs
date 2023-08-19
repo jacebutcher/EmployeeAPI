@@ -1,6 +1,4 @@
-﻿using System;
-
-using EmployeesAPI.Models;
+﻿using EmployeesAPI.Models;
 
 namespace EmployeesAPI.Helpers
 {

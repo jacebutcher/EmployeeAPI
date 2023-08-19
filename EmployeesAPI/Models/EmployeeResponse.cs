@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace EmployeesAPI.Models
+﻿namespace EmployeesAPI.Models
 {
     public class EmployeeResponse
     {

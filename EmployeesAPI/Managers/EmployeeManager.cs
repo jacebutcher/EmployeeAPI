@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using EmployeesAPI.Helpers;
+﻿using EmployeesAPI.Helpers;
 using EmployeesAPI.DataManagers;
 using EmployeesAPI.Models;
 
@@ -37,7 +36,6 @@ namespace EmployeesAPI.Managers
                 employees.Select(employee => new EmployeeResponse(employee.EmployeeId, employee.Name, employee.Designation)).ToList();
 
             return employeeResponse;
-
         }
     }
 }
