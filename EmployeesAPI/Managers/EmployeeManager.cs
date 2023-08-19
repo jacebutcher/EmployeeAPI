@@ -7,7 +7,7 @@ namespace EmployeesAPI.Managers
     public class EmployeeManager
     {
         private readonly EmployeeHelper helper = new();
-        private readonly EmployeeDataManager dataManager = new();
+        private readonly EmployeeData data = new();
         private List<EmployeeResponse> employeeResponse = new();
 
         public String? ValidateParameters(string department, int pageNumber, int pageSize)
@@ -21,8 +21,7 @@ namespace EmployeesAPI.Managers
 
         public List<Employee> GetEmployeesByDepartment(string department)
         {
-            List<Employee> employees = dataManager.GetAllEmployees();
-            return helper.FilterEmployeesByDepartment(department, employees);
+            return data.RetrieveEmployeesByDepartment(department);
         }
 
         public List<Employee> PageFilteredEmployees(List<Employee> employees, int pageNum, int pageSize)

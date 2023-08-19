@@ -9,11 +9,6 @@ namespace EmployeesAPI.Helpers
         const int MAX_PAGE_SIZE = 1000;
         const int MIN_PAGE_SIZE = 1;
 
-        public List<Employee> FilterEmployeesByDepartment(string department, List<Employee> employees)
-        {
-            return employees.Where(o => o.Department == department.ToLower()).ToList();  // filter by department
-        }
-
         public List<Employee> PageEmployees(List<Employee> employees, int pageNum, int pageSize)
         {
             return employees	// paging list of Employees based on provided parameters
