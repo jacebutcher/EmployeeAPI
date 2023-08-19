@@ -8,6 +8,10 @@ You can navigate to the following link to use the API along with the Swagger UI 
 
 OR you can manually test the API's function with URL parameters like so: https://jacescoolapi.azurewebsites.net/employee?department=security&pageNumber=1&pageSize=10
 
+## Example
+https://github.com/jacebutcher/EmployeeAPI/assets/114118425/88149b27-5132-4e6f-9186-5acb10dfda43
+
+
 ## Notes
 
 If you provide a department that does not exist, you should receive a corresponding error message.
