@@ -14,7 +14,7 @@ https://github.com/jacebutcher/EmployeeAPI/assets/114118425/88149b27-5132-4e6f-9
 
 ## Notes
 
-If you provide a department that does not exist, you should receive a corresponding error message.
+If you provide a department that does not exist OR provide paging inputs that result in no data OR encounter a SQL connection error, you should receive a corresponding error message.
 These are the following departments that you can test with:
 -finance
 -operations
