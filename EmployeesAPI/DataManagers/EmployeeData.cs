@@ -1,8 +1,6 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
-using System.Text;
 using EmployeesAPI.Models;
-using Microsoft.AspNetCore.Hosting.Server;
 
 namespace EmployeesAPI.DataManagers
 { 
@@ -16,7 +14,7 @@ namespace EmployeesAPI.DataManagers
             {
                 using (SqlConnection connection = new SqlConnection("TOP SECRET"))
                 {
-                    String sql = "SELECT * FROM Employees WHERE Department ='" + department + "'";
+                    String sql = "SELECT EmployeeId, Name, Designation, Department FROM Employees WHERE Department ='" + department + "'";
 
                     using (SqlCommand command = new(sql, connection))
                     {
